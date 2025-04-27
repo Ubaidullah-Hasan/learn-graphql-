@@ -1,0 +1,16 @@
+{
+  "name": "first-graphql-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@apollo/server": "^4.12.0",
+    "@types/node": "^22.15.2",
+    "graphql": "^16.11.0"
+  },
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && node ./dist/index.js"
+  }
+}
